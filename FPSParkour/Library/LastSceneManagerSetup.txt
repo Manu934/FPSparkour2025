@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/puente maderas.unity
+- path: Assets/Scenes/FPSParkour.unity
   isLoaded: 1
   isActive: 1
