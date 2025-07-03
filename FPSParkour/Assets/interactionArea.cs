@@ -22,6 +22,7 @@ public class interactionArea : MonoBehaviour
             if(mercancia)
             {
                 Destroy(mercancia.gameObject);
+                StopInteraction();
             }
         }
     }
@@ -36,9 +37,10 @@ public class interactionArea : MonoBehaviour
         }
     }
 
-    private void StopInteraction()
+    void StopInteraction()
     {
         interactionMessage.SetActive(false);
+        mercancia = null;
 
     }
 

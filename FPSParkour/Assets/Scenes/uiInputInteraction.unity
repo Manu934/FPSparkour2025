@@ -608,6 +608,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 876f6f29667e85f4ab3ccceb83fb8b25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactionMessage: {fileID: 380575838}
+  mercancia: {fileID: 0}
 --- !u!1001 &1338163356
 PrefabInstance:
   m_ObjectHideFlags: 0
