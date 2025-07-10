@@ -14,7 +14,6 @@ public class MoneyManager : MonoBehaviour
 
     public void UpdateMoney(float moneyToAdd)
     {
-                    Debug.Log("update");
 
         if (money + moneyToAdd < 0)
         {
