@@ -12,13 +12,9 @@ public class mercancia : MonoBehaviour
         moneyManager = FindObjectOfType<MoneyManager>();
     }
 
-    void OnCollisionEnter(Collision collision)
+    public void onInteract()
     {
-        if (collision.gameObject.name == "Player")
-        {
-            //alcualizar dinero por la compra
-            moneyManager.UpdateMoney(-cost);
-            Destroy(gameObject);
-        }
+        moneyManager.UpdateMoney(-cost);
+        Destroy(gameObject);
     }
 }
